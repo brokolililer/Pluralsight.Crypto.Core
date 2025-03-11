@@ -23,7 +23,7 @@ Install-Package Pluralsight.Crypto.Core
 Example of encrypting and decrypting a string:
 
 ```csharp
-using Pluralsight.Crypto.Core;
+using Pluralsight.Crypto;
 
 public class CryptoExample
 {
@@ -45,7 +45,7 @@ public class CryptoExample
 Example of generating a secure hash:
 
 ```csharp
-using Pluralsight.Crypto.Core;
+using Pluralsight.Crypto;
 
 public class HashExample
 {
@@ -65,7 +65,7 @@ public class HashExample
 Example of verifying a hash:
 
 ```csharp
-using Pluralsight.Crypto.Core;
+using Pluralsight.Crypto;
 
 public class VerifyHashExample
 {
